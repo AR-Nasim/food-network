@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 30px;
+}
+
+/*-- Navbar --*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 50px;
+    box-shadow: 1px 1px 10px gray;
+    background-color: whitesmoke;
+    color: #048bf7;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding-right: 20px;
+}
+.navbar ul li{
+    padding-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #048bf7;
+}
+.navbar span{
+    color: #575757;
+}
+
+/*-- Home --*/
+
+#home,#about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #575757;
+    height: 700px;
+}
+.half-width{
+    width: 40%;
+    margin: auto;
+}
+.half-width h1 span{
+    color: #048bf7;
+}
+
+.half-width p{
+    margin-bottom: 40px;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    color: white;
+    background-image: linear-gradient(to right,#8cc8e9,#008cff) ;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+/*-- About --*/
+
+#about{
+    background-image: url(images/background/bg-1.jpg);
+    background-repeat: no-repeat;
+}
+
+/*-- Recipie --*/
+
+
+
+
