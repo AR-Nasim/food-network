@@ -1,13 +1,23 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 h2{
     font-size: 30px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    color: #575757;
 }
 
 /*-- Navbar --*/
@@ -17,7 +27,7 @@ h2{
     align-items: center;
     justify-content:space-between;
     padding: 0px 50px;
-    box-shadow: 1px 1px 10px gray;
+    box-shadow: 1px 1px 10px #8cc8e9;
     background-color: whitesmoke;
     color: #048bf7;
 }
@@ -25,9 +35,10 @@ h2{
     list-style-type: none;
     display: flex;
     padding-right: 20px;
+    transition: 0.5s;
 }
 .navbar ul li{
-    padding-right: 20px;
+    padding-right: 50px;
 }
 .navbar ul li a{
     text-decoration: none;
@@ -64,7 +75,7 @@ h2{
     color: white;
     background-image: linear-gradient(to right,#8cc8e9,#008cff) ;
     text-decoration: none;
-    padding: 15px 25px;
+    padding: 12px 25px;
     border-radius: 30px;
 }
 
@@ -73,9 +84,46 @@ h2{
 #about{
     background-image: url(images/background/bg-1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*-- Recipie --*/
+
+.recipie-heading{
+    text-align: center;
+    padding: 40px 30%;
+    color: #575757;
+}
+.recipie-box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.recipie-item{
+    width: 20%;
+    padding: 20px;
+    margin: 0 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px #8cc8e9;
+ 
+}
+.recipie-item img{
+    width: 100%;
+    border-radius: 20px;
+}
+.recipie-item p{
+    margin-bottom: 30px;
+}
+
+/*-- Contact Us --*/
+
+.subscriber{
+    display: flex;
+    width: 80%;
+}
+.subscriber h1{
+    margin-bottom: 0;
+}
 
 
 
