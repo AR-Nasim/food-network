@@ -8,7 +8,7 @@ body{
     scroll-behavior: smooth;
 }
 h1{
-    font-size: 50px;
+    font-size: 60px;
 }
 h2{
     font-size: 30px;
@@ -18,6 +18,9 @@ h3{
 }
 p{
     color: #575757;
+}
+span{
+    color: #048bf7;
 }
 
 /*-- Navbar --*/
@@ -38,11 +41,18 @@ p{
     transition: 0.5s;
 }
 .navbar ul li{
-    padding-right: 50px;
+    padding-right: 40px;
 }
 .navbar ul li a{
     text-decoration: none;
     color: #048bf7;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: .6s;
+}
+.navbar ul li a:hover{
+    background-color: #048bf7;
+    color: white;
 }
 .navbar span{
     color: #575757;
@@ -50,7 +60,7 @@ p{
 
 /*-- Home --*/
 
-#home,#about{
+#home,#about,#contact{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -58,18 +68,17 @@ p{
     height: 700px;
 }
 .half-width{
-    width: 40%;
-    margin: auto;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.half-width h1 span{
-    color: #048bf7;
-}
-
 .half-width p{
     margin-bottom: 40px;
 }
 .half-width img{
-    width: 100%;
+    height: 100%;
 }
 .button{
     color: white;
@@ -115,15 +124,67 @@ p{
     margin-bottom: 30px;
 }
 
-/*-- Contact Us --*/
+/*-- Subscribe --*/
 
 .subscriber{
     display: flex;
-    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 14%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px #8cc8e9;
+}
+.subscriber div{
+    margin: 25px 80px;
 }
 .subscriber h1{
-    margin-bottom: 0;
+    margin: 0;
 }
+
+/*-- Contact Us --*/
+
+#contact{
+    background-image: url(images/background/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.half-width form input,.half-width form textarea{
+    display: block;
+    width: 250px;
+    padding: 15px 150px 15px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    border: #8cc8e9 2px solid;
+    outline: none;
+}
+.half-width form button,.half-width form h2{
+    display: block;
+    border: none;
+    margin: 20px 10px;
+}
+button{
+    cursor: pointer;
+}
+
+/*-- Footer --*/
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer div{
+    padding: 20px 0 40px 0;
+}
+footer div h3{
+    color: #575757;
+}
+footer div p{
+    color: white;
+}
+
 
 
 
